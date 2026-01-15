@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LocalAndroidSuite" parallel="false" thread-count="1">
+
+  <!-- Local ADB device/emulator. Use UDID from `adb devices` (e.g., emulator-5554). -->
+  <test name="LocalEmulator" preserve-order="true">
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="platformVersion" value="auto"/>
+
+    <!-- The repo ships with an APK at project root: Android.SauceLabs.apk.
+         You can override via -Dapp=C:/path/to/app.apk -->
+    <parameter name="app" value="Android.SauceLabs.apk"/>
+
+    <classes>
+      <class name="com.amit.apptest.tests.ProductsTest"/>
+      <class name="com.amit.apptest.tests.CartTest"/>
+      <class name="com.amit.apptest.tests.ProductListViewTest"/>
+      <class name="com.amit.apptest.tests.LogoutTest"/>
+      <class name="com.amit.apptest.tests.LoginTest"/>
+    </classes>
+  </test>
+
+</suite>
