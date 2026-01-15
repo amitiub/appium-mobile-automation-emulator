@@ -103,7 +103,7 @@ Extensible Design: Easy to add cloud execution back if needed
 
 APK Handling
 
-APK file is not included in this repository.
+APK file is included in this repository.
 
 Place your APK locally and provide the path via:
 
