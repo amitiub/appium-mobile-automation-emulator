@@ -1,7 +1,6 @@
 **Author: Amit Kumar Das**
-
 **Test Automation Consultant/Framework Architect**
-15+ years of experience in test automation and framework design
+
 
 **License**
 
