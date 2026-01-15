@@ -7,7 +7,7 @@
 
 This project is intended for learning, demonstration, and portfolio purposes.
 
-# Android Mobile Automation Framework (Appium + ADB)
+## Android Mobile Automation Framework (Appium + ADB)
 
 This repository contains a **production-ready Android mobile automation framework** built using **Appium**, **Java**, **TestNG**, and **Page Object Model (POM)**.
 
