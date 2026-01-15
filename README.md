@@ -38,7 +38,7 @@ This repository contains a **production-ready Android mobile automation framewor
 ---
 
 ## Project Structure
-
+```
 src
 └── test
 ├── core
@@ -46,8 +46,8 @@ src
 │ └── DriverFactory.java
 ├── pages
 └── tests
-
-
+```
+## Project Structure
 
 ---
 
