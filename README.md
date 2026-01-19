@@ -120,9 +120,5 @@ iOS execution support
 
 Hybrid app (WebView) support
 
-## Test Report:
 
 <img width="955" height="549" alt="image" src="https://github.com/user-attachments/assets/ea8b505f-7ee0-4d16-b574-cc6be6e47590" />
-
-
-
